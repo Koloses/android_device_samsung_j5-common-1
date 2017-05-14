@@ -65,12 +65,6 @@ QCOM_BT_USE_BTNV := true
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
-# CMHW
-BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw \
-    $(LOCAL_PATH)/cmhw
-
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE := true
